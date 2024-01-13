@@ -199,6 +199,6 @@ server.get('/', (req, res) => {
 
 server.post('/products', createProduct);
 
-server.listen(process.env.PORT, () => {
+server.listen((process.env.PORT || 8000), () => {
     console.log('server started');
 })
