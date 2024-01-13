@@ -1,4 +1,4 @@
-const { Cart } = require("../model/cart");
+const { Cart } = require("../model/Cart");
 
 exports.fetchCartByUser = async(req, res)=> {
     const {id} = req.user;

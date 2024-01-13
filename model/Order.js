@@ -20,4 +20,4 @@ orderSchema.set('toJSON', {
     versionKey: false,
     transform: function (doc, ret) {delete ret._id}
 })
-exports.Order = mongoose.model('Order', orderSchema);
+exports.Order = mongoose.model('Order', orderSchema)
